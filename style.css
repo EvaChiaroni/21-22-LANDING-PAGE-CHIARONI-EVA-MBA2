@@ -1,0 +1,102 @@
+body	{
+	font-family: Overpass;
+	font-size: 18px;
+	background-color: #DDDDDD;
+	color: #000000;
+}
+
+h1, h2	{
+	font-family: Chivo;
+}/* Write some CSS below */
+
+
+a{
+
+	text-decoration: none;
+}
+
+
+.banner {
+
+text-align: center;
+background-image: url(images/BANNIERE4.jpg);
+background-size: cover;
+background-position: size;
+color: white;
+padding: 100px 0px;
+
+
+}
+
+.btn-yellow hover{
+	opacity: 12;
+}
+
+
+.btn-yellow {
+
+background-color: #ADD8E6;
+padding: 10px 45px;
+border-radius: 4px;
+margin: 20px;
+color: black;
+font-size: 16px;
+
+
+}
+
+
+.container {
+
+width: 980px;
+margin: auto;
+
+}
+
+
+.card-white {
+
+background-color: #ADD8E6;
+width: 220px;
+text-align: center;
+padding: 24px;
+margin: 8px;
+border-radius: 4px;
+box-shadow: 0px 0px 4px rgba(0, 0, 0, 1);
+padding-bottom: 10px;
+font-size: 12px;
+
+
+}
+
+
+.card-white img {
+
+width: 200px;
+height: 200px;
+object-fit: cover;
+border-radius: 4px;
+
+}
+
+
+.footer {
+
+	background-color: rgb(150, 150, 150);
+}
+
+.cards {
+
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 16px;
+	width: 980px;
+}
+
+
+
+
+
+
+
+
